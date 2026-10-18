@@ -1,0 +1,26 @@
+:root {
+  --body: clamp(16px, 1.25vw, 20px);
+}
+
+.txt,
+.txt p,
+.appr-copy p,
+.f-txt,
+.f-txt p,
+.vtxt,
+.rcg p,
+.rec span,
+.est-lead,
+.enq-next li,
+.step .s-m p,
+.book-hint {
+  font-size: var(--body);
+  line-height: 1.4;
+  font-weight: 500;
+  letter-spacing: normal;
+}
+
+.txt { max-width: 440px; }
+.hp3 .txt { max-width: 480px; }
+.stat-row .txt { max-width: 480px; }
+.enq-next strong { font-size: var(--body); }
